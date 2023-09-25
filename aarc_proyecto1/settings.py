@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'aarc_app1'
+    'aarc_app1',
+    'aarc_app2',
 ]
 
 MIDDLEWARE = [

@@ -17,7 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from aarc_app1 import views as v1
+from aarc_app2 import views as v2
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('vista1/', v1.VistaP),
+    path('vista2/', v2.VistaS),
 ]
